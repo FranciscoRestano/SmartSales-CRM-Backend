@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+include/
+bin/
+share/
+*.egg-info/
+.installed.cfg
+.pytest_cache/
+.coverage
+.mypy_cache/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+.dockerignore
+Dockerfile.bak
+docker-compose.yml.bak
+
+# Environment
+.env
+.flaskenv
+
+# Database
+*.sqlite3
+*.db
+/data/*.sql
+/data/*.csv
+/data/*.bak
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+.venv
+
+# Specific for Postgres data volume
+data/
